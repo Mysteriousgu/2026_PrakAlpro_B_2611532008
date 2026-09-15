@@ -1,0 +1,20 @@
+print("=== SISTEM REGISTRASI MAHASISWA ALPRO 2026 ===")
+Nama_Mahasiswa_2008 = str(input("Masukkan Nama Mahasiswa: "))
+Jenis_Kelamin_2008 = str(input("Masukkan Jenis Kelamin (L/P): "))
+Umur_2008 = int(input("Masukkan Umur Mahasiswa: "))
+Skor_Tes_Awal_2008 = float(input("Masukkan Skor Tes Awal Mahasiswa: "))
+Alamat_2008 = str(input("Masukkan Alamat Mahasiswa: "))
+ID_Token_Sinyal_2008 = complex(input("Masukkan ID Token Sinyal Mahasiswa: "))
+
+print ("=== DATA PRAKTIKAN & HASIL PEMERIKSAAN ===")
+print ("Nama Mahasiswa: ", Nama_Mahasiswa_2008)
+print ("Jenis Kelamin: ", Jenis_Kelamin_2008)
+print ("Umur Mahasiswa: ", Umur_2008)
+print ("Skor Tes Awal: ", Skor_Tes_Awal_2008) 
+print ("Alamat Mahasiswa: ", Alamat_2008)
+print ("ID Token Sinyal Mahasiswa: ", ID_Token_Sinyal_2008)
+
+print ("=== Status Kelulusan Praktikum ===")
+status_kelulusan_2008 = "Lulus" if Skor_Tes_Awal_2008 >= 75.0 else "Tidak Lulus"
+print ("Batas Minimum Nilai : 75.0")
+print ("Apakah Dinyatakan Lulus?: ", status_kelulusan_2008)
