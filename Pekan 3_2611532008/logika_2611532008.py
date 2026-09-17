@@ -35,5 +35,3 @@ print("not A2 = ", hasil_2008)
 hasil_2008 = a1_2008 != a2_2008
 print("\nDisjungsi Eksklusif (XOR)")
 print("A1 XOR A2 = ", hasil_2008)
-
-# 
