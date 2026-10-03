@@ -1,4 +1,4 @@
-# Buat file dengan nama perulanga_for3_NIM.py
+# Buat file dengan nama perulangan_for3_NIM.py
 # Buat program untuk perulangan for dalam python
 # Nama variabel ditambah 4 digit nim terakhir contoh: ulang_1234
 # Program ini menggunakan fungsi input()
